@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web page of geeks for geeks</title>
+    <link rel="stylesheet" href="webpage.css">
+</head>
+
+<body>
+    <h1>C Language Introduction</h1>
+    <p>C is a procedural programming language initially developed by Dennis Ritchie in the year 1972 at Bell
+        Laboratories of AT&T Labs. It was mainly developed as a system programming language to write the UNIX operating
+        system.</p>
+    <h2 class="grey">The main features of the C language include:</h2>
+    <ul>
+        <li>General Purpose and Portable</li>
+        <li>Low-level Memory Access</li>
+        <li>Fast Speed</li>
+        <li>Clean Syntax</li>
+    </ul>
+    <p>These features make the C language suitable for system programmings like an operating system or compiler
+        development.</p>
+    <h2 class="grey">Why Should We Learn C ?</h2>
+    <p>Many later languages have borrowed syntax/features directly or indirectly from the C language. Like syntax of
+        Java, PHP, JavaScript, and many other languages are mainly based on the C language. C++ is nearly a superset of
+        C language (Only a few programs may compile in C, but not in C++).</p>
+    <p>So, if a person learns C programming first, it will help him to learn any modern programming language as well. As
+        learning C help to understand a lot of the underlying architecture of the operating system. Like pointers,
+        working with memory locations, etc.</p>
+    <h2>Components of a C Program:</h2>
+    <ol type="1">
+        <li>Header Files Inclusion – Line 1 [#include <stdio.h>]</li>
+        <br>
+        <div>
+            The first and foremost component is the inclusion of the Header files in a C program. A header file is a
+            file with extension .h which contains C function declarations and macro definitions to be shared between
+            several source files. All lines that start with # are processed by a preprocessor which is a program invoked
+            by the compiler. In the above example, the preprocessor copies the preprocessed code of stdio.h to our file.
+            The .h files are called header files in C.
+            Some of the C Header files:
+            <ul type="bullet">
+                <li>stddef.h – Defines several useful types and macros.</li>
+                <li>stdint.h – Defines exact width integer types.</li>
+                <li>stdio.h – Defines core input and output functions</li>
+                <li>stdlib.h – Defines numeric conversion functions, pseudo-random network generator, and memory
+                    allocation
+                <li>string.h – Defines string handling functions</li>
+                <li>math.h – Defines common mathematical functions.</li>
+            </ul>
+        </div><br>
+        <li>Main Method Declaration – Line 2 [int main()]</li>
+        <div>
+           <p> The next part of a C program is to declare the main() function. It is the entry point of a C program and the
+            execution typically begins with the first line of the main(). The empty brackets indicate that the main
+            doesn’t take any parameter (See this for more details). The int that was written before the main indicates
+            the return type of main(). The value returned by the main indicates the status of program termination. See
+            this post for more details on the return type.</p>
+        </div>
+        <li>Body of Main Method – Line 3 to Line 6 [enclosed in {}]</li>
+        <div>
+           <p> The body of a function in the C program refers to statements that are a part of that function. It can be
+            anything like manipulations, searching, sorting, printing, etc. A pair of curly brackets define the body of
+            a function. All functions must start and end with curly brackets.</p>
+        </div>
+        <li>Statement – Line 4 [printf(“Hello World”);]</li>
+        <div>
+            <p>Statements are the instructions given to the compiler. In C, a statement is always terminated by a semicolon (;). In this particular case, we use printf() function to instruct the compiler to display “Hello World” text on the screen.</p>
+    </ol>
+    <img src="image.png" alt="wait">
+</html>
